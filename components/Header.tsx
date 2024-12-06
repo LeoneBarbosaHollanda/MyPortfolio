@@ -1,12 +1,9 @@
 'use client'
 
-import Link from 'next/link'
 import { useLanguage } from '@/components/LanguageContext'
-import translations from '@/utils/translations'
 
 const Header = () => {
   const { language, toggleLanguage } = useLanguage()
-  const t = translations[language]
 
   return (
     <header className="w-full py-4 bg-dark-1000 text-neon-blue-400">
