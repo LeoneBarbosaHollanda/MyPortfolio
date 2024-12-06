@@ -29,7 +29,6 @@ const Skills = () => {
         <div className="flex flex-col md:flex-row gap-8">
           {/* Experiências */}
           <div className="md:w-1/2">
-            <h3 className="text-2xl font-semibold mb-4 text-neon-blue-400">{t.experienceSubtitle}</h3>
             <p className="text-neon-blue-100 mb-4 text-lg">
               {t.experienceDescription}
             </p>
@@ -42,7 +41,6 @@ const Skills = () => {
 
           {/* Habilidades */}
           <div className="md:w-1/2">
-            <h3 className="text-2xl font-semibold mb-4 text-neon-blue-400">{t.skillsSubtitle}</h3>
             <div className="space-y-6">
               {skills.map((skill) => (
                 <div key={skill.name} className="flex items-center gap-4">
