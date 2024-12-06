@@ -12,7 +12,7 @@ const Hero = () => {
     <section id="hero" className="text-center py-20 bg-gradient-to-b from-dark-1000 to-dark-1000">
       <div className="mb-8">
         <Image
-          src="/image/FotoCurriculo.jpg" // Substitua pelo caminho real da sua foto
+          src="https://leonebarbosahollanda.github.io/MyPortfolio/FotoCurriculo.jpg" // Substitua pelo caminho real da sua foto
           alt="Your Name"
           width={200}
           height={200}
