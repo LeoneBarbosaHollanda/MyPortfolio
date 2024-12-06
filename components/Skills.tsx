@@ -12,10 +12,10 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  { name: 'React', years: 2, icon: '/react.png', maxYears: 5 },
-  { name: 'Python', years: 3, icon: '/python.png', maxYears: 5 },
-  { name: 'Node', years: 1, icon: '/node.png', maxYears: 5 },
-  { name: 'Java', years: 2, icon: '/java.png', maxYears: 5 }
+  { name: 'React', years: 2, icon: '/image/react.png', maxYears: 5 },
+  { name: 'Python', years: 3, icon: '/image/python.png', maxYears: 5 },
+  { name: 'Node', years: 1, icon: '/image/node.png', maxYears: 5 },
+  { name: 'Java', years: 2, icon: '/image/java.png', maxYears: 5 }
 ]
 
 const Skills = () => {
